@@ -1,5 +1,5 @@
 
-PharmaRAG: AI-Powered Document Intelligence for Pharma Teams
+💊PharmaRAG: AI-Powered Document Intelligence for Pharma Teams
 
 PharmaRAG is an AI assistant designed to help pharmaceutical companies search, understand, and interact with their most complex documentation using natural language — instantly and securely.
 
@@ -12,14 +12,20 @@ Powered by Google Gemini and backed by a Retrieval-Augmented Generation (RAG) pi
   “What are the SOP steps for microbial swab testing?”
   “Show me all mentions of Guaifenesin stability data.”
   Behind the scenes, a RAG pipeline fetches relevant documents, summarizes key insights, and responds contextually using Gemini.
-RAG with PDF Embeddings
+  
+--RAG with PDF Embeddings
   Uses LangChain + ChromaDB + GoogleGenerativeAIEmbeddings
   Parses and chunks internal pharma PDFs: SOPs, batch records, microbiology reports, QA documents, etc.
   Fast retrieval of exact paragraphs using kNN search in a vector store.
-Visual Interpretation of Microbial Colonies
+
+  
+--Visual Interpretation of Microbial Colonies
   Leverages Gemini's multimodal capabilities to understand visual test plates, swab results, or colony counts.
   Users can upload images of agar plates or scanned logs, and the model interprets and compares microbial growth, classifications, and thresholds.
-Designed for Pharma Environments
+
+
+  
+--Designed for Pharma Environments
   Developed with regulatory and GMP/GLP workflows in mind
   Handles versioned SOPs, controlled document structures, and diverse PDF formats
   Plug-and-play access through a FastAPI-based web backend
